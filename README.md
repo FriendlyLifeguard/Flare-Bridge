@@ -1,6 +1,6 @@
 # Diagram
 
-(Picture)[/images/example.png]
+![Picture](./images/example.png)
 
 ---
 
