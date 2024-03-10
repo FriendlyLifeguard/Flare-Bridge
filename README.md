@@ -1,6 +1,6 @@
 # Diagram
 
-[Picture](/images/example.png)
+(Picture)[/images/example.png]
 
 ---
 
@@ -13,6 +13,7 @@ Token Contracts/Addresses
 
 Sepolia
 
+[
 '0x93CCB5ca873E9777fb088a97508e06968858Cc21',
 '0xf99e934fcF4cBbb89349CC96F93B15A2dCcbC3dB',
 '0x0cD24EB1BF3FBBB026fD51DA23084E0ff9fFBfB5',
@@ -23,16 +24,20 @@ Sepolia
 '0x9680243000a2A02fE0f64B7bdCA6Fd926d6f4888',
 '0x63d4fed740F34f6fe4ca46e08C10Bf1cfd93c1bD',
 '0x9C0C46F3608E44d21c46C4d893734F07170d60DE'
+]
 
 Coston
 
+[
 '0x9C0C46F3608E44d21c46C4d893734F07170d60DE',
 '0x09BfCe40b4Ce54aef31EC9Ade7fE7d12935343d8',
 '0x13E5E6D25C0BBb0438931c608e8CC32C8350441b',
 '0x1068843E8e8917B308075fA5E8Ef48D930455BAD',
 '0xCD6B7DfC0CE921e45dc6430771957026C6Ec3953'
+]
 
 EthereumPaymentCollector Contract (Coston)
+
 https://coston2-explorer.flare.network/address/0x32Bc711112776176D4C1aCf2d1f236aF3599ebFb
 
 Test Transaction #1 [ETH]
