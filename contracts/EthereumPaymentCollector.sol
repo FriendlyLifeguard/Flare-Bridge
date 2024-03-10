@@ -44,7 +44,7 @@ contract EthereumPaymentCollector {
         for(uint256 i = 0; i < _transaction.data.responseBody.events.length; i++) {
 
             // Decode each event
-            address sender = abi.decode(abi.encodePacked(_transaction.data.responseBody.events[i].topics[2]), (address));
+            address sender = abi.decode(abi.encodePacked(_transaction.data.responseBody.events[i].topics[1]), (address));
             (uint256 value, bytes memory data) = abi.decode(_transaction.data.responseBody.events[i].data, (uint256, bytes));
             eventInfo.push(EventInfo({
                 sender:sender,

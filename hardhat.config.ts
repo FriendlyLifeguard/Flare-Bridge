@@ -62,7 +62,7 @@ const config: HardhatUserConfig = {
       accounts: [`${PRIVATE_KEY}`]
     },
     coston: {
-      url: "http://flaretest.server.aflabs.net/ext/bc/C/rpc" + (FLARE_RPC_API_KEY ? `?x-apikey=${FLARE_RPC_API_KEY}` : ""),
+      url: "https://coston-api.flare.network/ext/C/rpc" + (FLARE_RPC_API_KEY ? `?x-apikey=${FLARE_RPC_API_KEY}` : ""),
       accounts: [`${PRIVATE_KEY}`],
       chainId: 16
     },
